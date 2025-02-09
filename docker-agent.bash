@@ -7,7 +7,7 @@ docker run -d --restart=always --name docker-socket-proxy \
   --env SYSTEM=1 \
   --env IMAGES=1 \
   --env BUILD=1 \
-  --env NETWORKS=1 \  # Add this
-  --env EXEC=1 \      # Add this
-  --env TASKS=1 \     # Add this
+  --env NETWORKS=1 \
+  --env EXEC=1 \
+  --env TASKS=1 \
   tecnativa/docker-socket-proxy
